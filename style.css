@@ -309,24 +309,6 @@ nav {
 	height: 1rem;
 }
 
-.alert {
-	width: 100%;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 1rem;
-	margin-bottom: 0.5rem;
-	background-color: var(--success);
-}
-
-.warning {
-	background-color: var(--warning);
-}
-
-.d-none {
-	display: none;
-}
-
 #exit {
 	cursor: pointer;
 }

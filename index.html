@@ -248,15 +248,7 @@
 			</div>
 			<div class="contact-message">
 				<h1 class="text-center title-text">Kirim Pesan</h1>
-				<div class="alert d-none" id="alert" role="alert">
-					<p><strong>Terima kasih! </strong>Pesan anda sudah kami terima</p>
-					<i class="fa-solid fa-xmark fa-lg" id="exit"></i>
-				</div>
-				<div class="alert warning d-none" id="alert" role="alert">
-					<p><strong>Maaf! </strong>Pesan anda tidak berhasil dikirim</p>
-					<i class="fa-solid fa-xmark fa-lg" id="exit"></i>
-				</div>
-				<form name="contact-form">
+				<form action="https://formspree.io/f/myyarjeg" method="POST">
 					<input
 						name="name"
 						type="text"
@@ -277,9 +269,6 @@
 							value="Kirim"
 							class="form-btn send-btn"
 							id="btnKirim" />
-						<button class="form-btn disable d-none" id="btnLoading" disabled>
-							<i class="fa-solid fa-spinner fa-spin"></i>
-						</button>
 					</div>
 				</form>
 			</div>
